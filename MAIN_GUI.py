@@ -3,13 +3,11 @@ import cv2
 import numpy as np
 import streamlit as st
 import tensorflow as tf
-from streamlit_option_menu import option_menu
+
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
-from PIL import Image
-import base64
-from io import BytesIO
+
 
 st.set_page_config(layout="wide")
 
