@@ -1,5 +1,5 @@
 streamlit==1.10.0
-opencv-python>=4.0.7
+opencv-python>=4.7.0
 numpy==1.23.5
 streamlit-option-menu==0.3.2
 tensorflow==2.9.1
